@@ -6,6 +6,7 @@
 #include "algorithm"
 #include "functional"
 #include "iostream"
+#include "complex"
 using namespace std;
 
 vector<int> filter_ver1 (vector<int> &vec, int value, bool (*pred)(int ,int ));
